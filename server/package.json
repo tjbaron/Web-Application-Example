@@ -1,0 +1,21 @@
+{
+  "name": "tflang-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests/index.js"
+  },
+  "author": "Thomas",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "colors": "^1.2.5",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.1",
+    "tracer": "^0.8.15"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
